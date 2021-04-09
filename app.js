@@ -24,7 +24,7 @@ var mlr = function ({ dropID = "mbPOCControlsLangDrop", stringAttribute = "data-
     (function createMLDrop() {
         var mbPOCControlsLangDrop = document.getElementById(dropID);
         // Reset the menu
-        mbPOCControlsLangDrop.innerHTML = "";
+        mbPOCControlsLangDrop.innerHTML = "English";
         // Now build the options
         listOfLanguages.forEach((lang, langidx) => {
             let HTMLoption = document.createElement("option");
